@@ -21,3 +21,5 @@ const stud =(a,b)=>{
     console.log("addition :"+c);
 }
 total(10,20,stud)
+
+const 
