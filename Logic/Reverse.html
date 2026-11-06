@@ -1,0 +1,13 @@
+<script>
+    let num = 4567;
+let reverse = 0;
+
+while (num > 0) {
+  let digit = num % 10;
+  reverse = reverse * 10 + digit;
+  num = (num - digit) / 10;
+}
+
+console.log(reverse);
+
+</script>

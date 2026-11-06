@@ -1,0 +1,20 @@
+<script>
+    let number = 13
+    let isprime = true
+
+    if(number <= 1){
+        isprime = false
+    }else{
+        for(let i=2 ; i < number; i++ ){
+            if(number % i === 0){             
+            isprime = false
+            break;
+        }
+    }
+    }
+  
+ console.log(isprime?`This is Prime number ${number} `: `This is not Prime number ${number}`);
+    
+    
+
+</script>

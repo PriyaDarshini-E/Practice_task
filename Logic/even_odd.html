@@ -1,0 +1,44 @@
+<script>
+    let num = 3
+    if(num%2===0){
+        console.log(`Even number ${num}`);
+    }
+    else{
+        console.log(`odd number ${num}`);
+    }
+console.log("Array ");
+
+    let arr = [2,3,4,5,6,7]
+    for(let i=0; i<arr.length;i++){
+         if(arr[i] % 2 === 0){
+        console.log(`Even number ${arr[i]}`);
+    }
+    else{
+        console.log(`odd number ${arr[i]}`);
+    }
+    }
+
+console.log("Count the even and odd  ");
+    let arr1 = [2,3,4,5,6,9,7]
+    let even = []
+    let odd = []
+    let even_count = 0
+    let odd_count = 0
+
+    for(let i=0; i<arr1.length;i++){
+         if(arr1[i] % 2 === 0){
+           even_count++
+           even.push(arr1[i])
+        //    console.log(even);
+        //    console.log(even_count);   
+    }
+    else{
+        odd_count++
+        odd.push(arr1[i])
+    }
+    }
+    console.log(`the count of even ${even_count} and numbers are ${even}`);
+    console.log(`the count of Odd ${odd_count} and numbers are ${odd}`);
+    
+   
+</script>
